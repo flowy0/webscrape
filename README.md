@@ -35,3 +35,11 @@ cd v1
 scrapy crawl quotes -O starwars40.json
 
 ```
+
+
+#### Setup your env
+```
+pyenv virtualenv 3.9.4 webscraper
+pip install -r requirements.txt
+```
+
