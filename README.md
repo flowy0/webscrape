@@ -31,7 +31,7 @@ scrapy crawl quotes -o starwars40.jl
 
 To crawl and overwrite the file.
 ```
-cd v1
+cd starwars
 scrapy crawl quotes -O starwars40.json
 
 ```
