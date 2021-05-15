@@ -4,6 +4,19 @@
 ### trying out Scrapy - web scraping framework
 
 
+#### Setup your env
+```
+# using pyenv
+pyenv virtualenv 3.9.4 webscraper
+pip install -r requirements.txt
+
+# or with Conda
+conda create -n webscraper  python=3.9.4
+conda install --file requirements.txt
+
+```
+
+
 #### One Time Setup for the scrapy project
 ```
 scrapy startproject starwars
@@ -36,10 +49,4 @@ scrapy crawl quotes -O starwars40.json
 
 ```
 
-
-#### Setup your env
-```
-pyenv virtualenv 3.9.4 webscraper
-pip install -r requirements.txt
-```
 
